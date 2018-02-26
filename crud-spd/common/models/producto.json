@@ -1,10 +1,13 @@
 {
-  "name": "empresa",
+  "name": "producto",
+  "plural": "prodcutos",
+  "base": "Model",
+  "idInjection": false,
   "options": {
-    "idInjection": false,
+    
     "mysql": {
       "schema": "sql9223353",
-      "table": "empresa"
+      "table": "producto"
     }
   },
   "properties": {
@@ -14,9 +17,23 @@
       "length": null,
       "precision": 10,
       "scale": 0,
-      "id": 1,
       "mysql": {
         "columnName": "id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "identificador": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "identificador",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,
@@ -39,14 +56,14 @@
         "nullable": "N"
       }
     },
-    "nit": {
+    "cantidad": {
       "type": "Number",
       "required": true,
       "length": null,
       "precision": 10,
       "scale": 0,
       "mysql": {
-        "columnName": "nit",
+        "columnName": "cantidad",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,
@@ -54,33 +71,18 @@
         "nullable": "N"
       }
     },
-    "direccion": {
+    "lugar": {
       "type": "String",
       "required": true,
       "length": 200,
       "precision": null,
       "scale": null,
       "mysql": {
-        "columnName": "direccion",
+        "columnName": "lugar",
         "dataType": "varchar",
         "dataLength": 200,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "N"
-      }
-    },
-    "telefono": {
-      "type": "Number",
-      "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "telefono",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
         "nullable": "N"
       }
     }

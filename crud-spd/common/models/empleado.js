@@ -1,5 +1,1 @@
-'use strict';
-
-module.exports = function(Empleado) {
-
-};
+'use strict';module.exports=function(empleado) {};

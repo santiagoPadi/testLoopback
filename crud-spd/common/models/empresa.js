@@ -1,5 +1,1 @@
-'use strict';
-
-module.exports = function(Empresa) {
-
-};
+'use strict';module.exports=function(empresa) {};

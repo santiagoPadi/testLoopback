@@ -17,5 +17,14 @@
     "name": "test2",
     "user": "rfamro",
     "connector": "mysql"
+  },
+  "test3": {
+    "host": "sql9.freemysqlhosting.net",
+    "port": 3306,
+    "database": "sql9223353",
+    "password": "pJwW9Y4Ske",
+    "name": "test3",
+    "user": "sql9223353",
+    "connector": "mysql"
   }
 }

@@ -32,35 +32,19 @@
     }
   },
   "Role": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "test3",
+    "public": false
   },
   "empresa": {
-    "dataSource": "db",
+    "dataSource": "test3",
     "public": true
   },
   "empleado": {
-    "dataSource": "db",
+    "dataSource": "test3",
     "public": true
   },
-  "clan_membership": {
-    "dataSource": "test2",
-    "public": true
-  },
-  "family": {
-    "dataSource": "test2",
-    "public": true
-  },
-  "rfamseq": {
-    "dataSource": "test2",
-    "public": true
-  },
-  "clan": {
-    "dataSource": "test2",
-    "public": true
-  },
-  "taxonomy": {
-    "dataSource": "test2",
+  "producto": {
+    "dataSource": "test3",
     "public": true
   }
 }

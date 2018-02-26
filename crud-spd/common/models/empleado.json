@@ -1,31 +1,88 @@
 {
   "name": "empleado",
-  "plural": "empelados",
-  "base": "PersistedModel",
-  "idInjection": true,
   "options": {
-    "validateUpsert": true
-  },
-  "properties": {
-    "nombres": {
-      "type": "string",
-      "required": true
-    },
-    "apellidos": {
-      "type": "string",
-      "required": true
-    },
-    "phone": {
-      "type": "number",
-      "required": true
-    },
-    "empresa": {
-      "type": "number",
-      "default": 1
+    "idInjection": false,
+    "mysql": {
+      "schema": "sql9223353",
+      "table": "empleado"
     }
   },
-  "validations": [],
-  "relations": {},
-  "acls": [],
-  "methods": {}
+  "properties": {
+    "id": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "id": 1,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "nombre": {
+      "type": "String",
+      "required": true,
+      "length": 200,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "nombre",
+        "dataType": "varchar",
+        "dataLength": 200,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "apellido": {
+      "type": "String",
+      "required": true,
+      "length": 200,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "apellido",
+        "dataType": "varchar",
+        "dataLength": 200,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "cc": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "cc",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    },
+    "telefono": {
+      "type": "Number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "telefono",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      }
+    }
+  }
 }
