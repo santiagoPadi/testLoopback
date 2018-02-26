@@ -1,0 +1,28 @@
+{
+  "name": "usuario",
+  "plural": "usuarios",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "default": "user"
+    },
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "Phone": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

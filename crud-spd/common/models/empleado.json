@@ -1,0 +1,31 @@
+{
+  "name": "empleado",
+  "plural": "empelados",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombres": {
+      "type": "string",
+      "required": true
+    },
+    "apellidos": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "number",
+      "required": true
+    },
+    "empresa": {
+      "type": "number",
+      "default": 1
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

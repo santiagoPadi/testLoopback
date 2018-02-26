@@ -1,0 +1,27 @@
+{
+  "name": "empresa",
+  "plural": "empresa",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "nit": {
+      "type": "number",
+      "required": true
+    },
+    "phone": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

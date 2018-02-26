@@ -1,0 +1,17 @@
+{
+  "name": "santiago",
+  "version": "1.0.0",
+  "description": "test de Santiago",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santiago",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^11.0.0"
+  },
+  "dependencies": {
+    "loopback-cli": "^4.1.0"
+  }
+}

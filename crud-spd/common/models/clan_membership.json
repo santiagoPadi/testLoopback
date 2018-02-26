@@ -1,0 +1,43 @@
+{
+  "name": "clan_membership",
+  "base": "PersistedModel",
+  "options": {
+    "idInjection": false,
+    "mysql": {
+      "schema": "Rfam",
+      "table": "clan_membership"
+    }
+  },
+  "properties": {
+    "clan_acc": {
+      "type": "String",
+      "required": true,
+      "length": 7,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "clan_acc",
+        "dataType": "varchar",
+        "dataLength": 7,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    },
+    "rfam_acc": {
+      "type": "String",
+      "required": true,
+      "length": 7,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "rfam_acc",
+        "dataType": "varchar",
+        "dataLength": 7,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "testRfam": {
+    "name": "testRfam",
+    "localStorage": "",
+    "file": "mysql-rfam-public.ebi.ac.uk",
+    "connector": "memory"
+  },
+  "test2": {
+    "host": "mysql-rfam-public.ebi.ac.uk",
+    "port": 4497,
+    "database": "Rfam",
+    "password": "",
+    "name": "test2",
+    "user": "rfamro",
+    "connector": "mysql"
+  }
+}
